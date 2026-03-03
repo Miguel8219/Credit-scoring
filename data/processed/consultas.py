@@ -6,6 +6,12 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 DB_FILE = BASE_DIR / "database" / "credit_scoring.db"
 
 
+def get_connection():
+	"""Retorna uma conexão com o banco de dados SQLite"""
+	conn = sqlite3.connect(DB_FILE)
+	return conn
+
+
 def run_examples():
 	conn = sqlite3.connect(DB_FILE)
 	cursor = conn.cursor()
