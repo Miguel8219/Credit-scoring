@@ -5,7 +5,7 @@ Criar um sistema completo de avaliação de risco de crédito que simule o proce
 
 ## 📋 **ETAPAS DO PROJETO**
 
-### **ETAPA 1: ENTENDIMENTO DO NEGÓCIO (Seu amigo matemático brilha aqui)**
+### **ETAPA 1: ENTENDIMENTO DO NEGÓCIO**
 
 **O que analisar:**
 1. **Definir o problema de negócio:**
